@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
+    <div class="sty1">样式测试</div>
   </div>
 </template>
 
@@ -15,6 +12,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  .sty1 {
+    color: aquamarine;
+  }
 }
 
 #nav {
